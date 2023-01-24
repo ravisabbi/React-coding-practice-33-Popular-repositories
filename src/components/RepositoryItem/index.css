@@ -1,0 +1,44 @@
+.avatar {
+  width: 60px;
+  height: 60px;
+}
+.name {
+  color: #e73959;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+}
+.issue-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 80%;
+}
+.repo-icon {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+.count {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #1e293b;
+  font-weight: 600;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.repo-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8ff;
+  width: 200px;
+  height: 250px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+}
